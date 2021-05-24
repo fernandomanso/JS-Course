@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <input type="text" id="colorInput">
+    <button onclick="body.style.backgroundColor = colorInput.value "> Click ME!!</button>
+
+    <script>
+        //Por medio de JS dar color rojo al elemento body 2min
+        //let elBody = document.getElementById("body")
+        //elBody.style.backgroundColor = "red"
+        //Ecmascrip6 body = document.getElementById("body")
+
+        //Si quisiera que el usuario ingrese por prompt el nombre de un color en ingles
+        // y despues que el fondo tome ese color, como hago?
+        let colorIngresado = prompt("Ingrese un color en ingles")
+        body.style.backgroundColor = colorIngresado
+
+    </script>
+</body>
+</html>

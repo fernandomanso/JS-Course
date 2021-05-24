@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numero1 = 30
+        let numero2 = 40
+
+        let suma = numero1 + numero2
+        let resta = numero1 - numero2
+        let multiplicacion = numero1 * numero2
+        let division = numero1 / numero2
+
+        let resto = numero1 % numero2
+
+        /*Cuando hago un prompt y me devuelve el valor del usuario ingreso,
+        ¿De que tipo es la variable donde guarde el ingreso del usuario?
+        */
+        let numeroIngresado = prompt("Ingrese un dato")
+        //La respuesta es que siempre es un string sin importar los caracteres ingresados
+        alert(typeof(numeroIngresado))
+
+        let numeroConvertido = parseInt(numeroIngresado)
+        alert(typeof(numeroConvertido))
+
+    </script>
+</body>
+</html>
